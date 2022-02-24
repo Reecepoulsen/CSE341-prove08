@@ -1,0 +1,23 @@
+GET http://localhost:8080/professional
+
+# Response Structure
+# {
+#   professionalName : String,
+#   nameLink : {
+#     firstName : String,
+#     url : String(URL),
+#   },
+#   primaryDescription : String,
+#   workDescription1 : String,
+#   workDescription2 : String,
+#   linkTitleText: String,
+#   linkedInLink : {
+#     text : String,
+#     link : String(URL)
+#   },
+#   githubLink : {
+#     text : String,
+#     link : String(URL)
+#   },
+#   base64Image : String(Base 64 Img)
+# }
